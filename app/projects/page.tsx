@@ -1,7 +1,6 @@
 import StatisticsSection from "../../components/StatisticsSection";
 import HeroSection from "../../components/HeroSection";
 import AnimatedEntrance from "../../components/AnimatedEntrance";
-import { FaFacebookF, FaXTwitter, FaInstagram } from 'react-icons/fa6';
 import { PROJECTS_STATISTICS } from "../../utils/constants/statistics";
 import { HERO_CONFIGS } from "../../utils/constants/heroSections";
 import { ANIMATION_PRESETS, STAGGER_DELAYS } from "../../utils/constants/animations";

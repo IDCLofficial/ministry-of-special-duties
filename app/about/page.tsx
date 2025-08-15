@@ -3,7 +3,6 @@ import {
   FaRegEye, FaBullseye, FaEye, FaClipboardCheck, FaShieldHalved, FaUsers,
   FaBuilding, FaFileContract,
   FaChartLine, FaHouse, FaMapPin, FaFileSignature, FaLandmark, FaCity,
-  FaTree
 } from "react-icons/fa6";
 import HeroSection from "../../components/HeroSection";
 import AnimatedEntrance from "../../components/AnimatedEntrance";
@@ -38,7 +37,7 @@ export default function About() {
                                     The Ministry of Special Duties is a dynamic arm of the Imo State Government, created to handle assignments that fall outside the direct scope of conventional ministries. It oversees strategic interventions, inter-governmental collaborations, disaster response, and implementation of high-level projects as directed by the Executive Governor.
                                 </p>
                                 <p className="text-sm sm:text-base md:text-lg text-gray-700 leading-relaxed">
-                                    Our ministry acts as a bridge between the Governor's special directives and the implementing agencies, ensuring that every assignment is executed with precision, urgency, and public impact across Imo State.
+                                    Our ministry acts as a bridge between the Governor&rsquo;s special directives and the implementing agencies, ensuring that every assignment is executed with precision, urgency, and public impact across Imo State.
                                 </p>
                             </AnimatedEntrance>
                         </div>
@@ -80,7 +79,7 @@ export default function About() {
                                     <h3 className="text-2xl font-bold text-gray-900">Our Mission</h3>
                                 </div>
                                 <p className="text-gray-600 mb-6 leading-relaxed">
-                                    To coordinate and implement the Governor's special mandates through strategic planning, emergency response, inter-agency collaboration, and efficient execution of high-impact projects ensuring fast, transparent, and citizen-focused service delivery throughout Imo State.
+                                    To coordinate and implement the Governor&rsquo;s special mandates through strategic planning, emergency response, inter-agency collaboration, and efficient execution of high-impact projects ensuring fast, transparent, and citizen-focused service delivery throughout Imo State.
                                 </p>
                             </div>
                         </AnimatedEntrance>
@@ -204,7 +203,7 @@ export default function About() {
                                 Protocol & Events Management
                             </h3>
                             <p className="text-sm sm:text-base text-gray-600 leading-relaxed">
-                                Handles state ceremonies, official events, and the Governor's special engagements requiring logistical coordination.
+                                Handles state ceremonies, official events, and the Governor&rsquo;s special engagements requiring logistical coordination.
                             </p>
                         </div>
 
@@ -283,7 +282,7 @@ export default function About() {
                     <div className="text-center mb-12">
                         <h2 className="text-3xl font-bold text-gray-900 sm:text-4xl">Priority Areas & Planned Initiatives</h2>
                         <p className="mt-4 text-lg text-gray-600 max-w-3xl mx-auto">
-                            Dr. (Sir) Chika Abazu's strategic focus areas and planned initiatives for the Ministry of Special Duties.
+                            Dr. (Sir) Chika Abazu&rsquo;s strategic focus areas and planned initiatives for the Ministry of Special Duties.
                         </p>
                     </div>
 
@@ -445,7 +444,7 @@ export default function About() {
                                 <FaHouse className="w-5 h-5 text-white" />
                             </div>
                             <h3 className="text-lg font-semibold mb-2">Protocol & Events Management</h3>
-                            <p className="text-sm text-gray-400">Handles state ceremonies, official events, and the Governor's special engagements requiring logistical coordination.</p>
+                            <p className="text-sm text-gray-400">Handles state ceremonies, official events, and the Governor&rsquo;s special engagements requiring logistical coordination.</p>
                         </div>
 
                         {/* Strategic Planning & Monitoring Department */}

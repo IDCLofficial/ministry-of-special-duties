@@ -45,7 +45,7 @@ export default function Home() {
               </AnimatedEntrance>
               <AnimatedEntrance {...ANIMATION_PRESETS.TEXT_FADE_RIGHT} delay={400}>
                 <p className="text-sm sm:text-base text-gray-600 leading-relaxed">
-                  We are committed to coordinating special assignments and handling strategic government interventions that cut across various sectors in the state. Whether responding to emergencies, overseeing special projects, or facilitating high-impact initiatives, our role is central to the smooth operation of government and the achievement of state-wide development goals. Our ministry acts as a bridge between the Governor's special directives and the implementing agencies, ensuring that every assignment is executed with precision, urgency, and public impact.
+                  We are committed to coordinating special assignments and handling strategic government interventions that cut across various sectors in the state. Whether responding to emergencies, overseeing special projects, or facilitating high-impact initiatives, our role is central to the smooth operation of government and the achievement of state-wide development goals. Our ministry acts as a bridge between the Governor&rsquo;s special directives and the implementing agencies, ensuring that every assignment is executed with precision, urgency, and public impact.
                 </p>
               </AnimatedEntrance>
               <AnimatedEntrance {...ANIMATION_PRESETS.BUTTON_SCALE_UP} delay={600}>
@@ -77,7 +77,7 @@ export default function Home() {
                   Welcome to the Ministry of Special Duties, Imo State. As a highly accomplished Public Health Physician with over 22 years of distinguished service in the Federal Civil Service, I am committed to coordinating special assignments and handling strategic government interventions that cut across various sectors in our state.
                 </p>
                 <p className="text-sm sm:text-base text-gray-600 mb-4 sm:mb-6 leading-relaxed">
-                  Whether responding to emergencies, overseeing special projects, or facilitating high-impact initiatives, our role is central to the smooth operation of government and the achievement of state-wide development goals. Our ministry acts as a bridge between the Governor's special directives and the implementing agencies.
+                  Whether responding to emergencies, overseeing special projects, or facilitating high-impact initiatives, our role is central to the smooth operation of government and the achievement of state-wide development goals. Our ministry acts as a bridge between the Governor&rsquo;s special directives and the implementing agencies.
                 </p>
                 <p className="text-sm sm:text-base text-gray-600 mb-6 sm:mb-8 leading-relaxed">
                   As a God-fearing, honest, hardworking, and focused leader who does not make empty promises, I am dedicated to ensuring that every assignment is executed with precision, urgency, and public impact. Together, we are strengthening governance, promoting resilience, and enhancing the wellbeing of all citizens across Imo State.

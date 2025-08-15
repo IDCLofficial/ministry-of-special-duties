@@ -2,7 +2,7 @@ import HeroSection from "../../components/HeroSection";
 import { HERO_CONFIGS } from "../../utils/constants/heroSections";
 import AnimatedEntrance from "../../components/AnimatedEntrance";
 import { ANIMATION_PRESETS, STAGGER_DELAYS } from "../../utils/constants/animations";
-import { FaUsers, FaShieldHalved, FaLeaf, FaHandshake } from 'react-icons/fa6';
+import { FaUsers, FaShieldHalved, FaHandshake } from 'react-icons/fa6';
 import { FaHandsHelping } from 'react-icons/fa';
 
 export default function Services() {
