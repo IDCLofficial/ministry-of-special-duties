@@ -62,7 +62,7 @@ export default function Footer() {
                                             Stay Connected with Us
                                         </h2>
                                         <p className="max-w-lg opacity-70 text-sm sm:text-base leading-relaxed">
-                                            Get updates on sports development, youth empowerment programs, talent identification initiatives, and infrastructure projects across Imo State. We&apos;re committed to building champions and empowering youth.
+                                            Get updates on emergency response coordination, special government interventions, inter-agency collaboration, and strategic project implementation across Imo State. We&apos;re committed to delivering strategic interventions and coordinating special mandates.
                                         </p>
                                     </div>
                                 </AnimatedEntrance>
@@ -97,11 +97,11 @@ export default function Footer() {
                                                 className="h-8 w-8 sm:h-10 sm:w-10 md:h-[64px] md:w-auto object-contain transition-transform duration-300 group-hover:scale-105"
                                             />
                                         </div>
-                                        <span className="text-base sm:text-lg md:text-xl font-bold flex-1 leading-tight transition-colors duration-300 group-hover:text-green-300">Imo State Ministry of Sports and Youth Development</span>
+                                        <span className="text-base sm:text-lg md:text-xl font-bold flex-1 leading-tight transition-colors duration-300 group-hover:text-green-300">Imo State Ministry of Special Duties</span>
                                     </div>
                                 </Link>
                                 <p className="text-gray-300 leading-relaxed text-sm sm:text-base hover:text-gray-200 transition-colors duration-300">
-                                    Responsible for sports development, youth empowerment, talent identification, and sports infrastructure development—building champions and fostering sporting excellence through comprehensive programs and strategic partnerships.
+                                    A dynamic arm of the Imo State Government, handling strategic interventions, inter-governmental collaborations, disaster response, and implementation of high-level projects as directed by the Executive Governor—coordinating special assignments with precision, urgency, and public impact.
                                 </p>
                             </div>
                         </AnimatedEntrance>
@@ -168,7 +168,7 @@ export default function Footer() {
                                     <p className="leading-relaxed hover:text-gray-200 transition-colors duration-300">
                                         Block 1, Imo State Secretariat, Port Harcourt Road, Owerri, Imo State, Nigeria
                                     </p>
-                                    <div className="flex space-x-4 mt-2">
+                                    {/* <div className="flex space-x-4 mt-2">
                                         <a href="https://facebook.com/imonigerdelta" target="_blank" rel="noopener noreferrer" className="hover:text-green-300 transition-colors duration-300 cursor-pointer">
                                             Facebook
                                         </a>
@@ -178,7 +178,7 @@ export default function Footer() {
                                         <a href="https://linkedin.com/company/imonigerdelta" target="_blank" rel="noopener noreferrer" className="hover:text-green-300 transition-colors duration-300 cursor-pointer">
                                             LinkedIn
                                         </a>
-                                    </div>
+                                    </div> */}
                                 </div>
                             </div>
                         </AnimatedEntrance>
@@ -186,7 +186,7 @@ export default function Footer() {
 
                     <AnimatedEntrance {...ANIMATION_PRESETS.SECTION_FADE_IN} delay={600}>
                         <div className="border-t border-gray-600 mt-8 sm:mt-10 md:mt-12 pt-4 sm:pt-6 md:pt-8 text-center">
-                            <p className="text-gray-300 text-sm sm:text-base hover:text-white transition-colors duration-300">All Right Reserve Imo 2025</p>
+                            <p className="text-gray-300 text-sm sm:text-base hover:text-white transition-colors duration-300">Powered by <span className="text-green-500 font-semibold">Imo State Digital City</span></p>
                         </div>
                     </AnimatedEntrance>
                 </div>

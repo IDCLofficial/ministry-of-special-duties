@@ -61,7 +61,7 @@ export default function TabContentSystem({ tabs, className = "" }: TabContentSys
 
                     {/* Main Content */}
                     {activeContent && (
-                        <AnimatedEntrance {...ANIMATION_PRESETS.CARD_FADE_UP} delay={STAGGER_DELAYS.MEDIUM[1]} key={activeTab}>
+                        <AnimatedEntrance {...ANIMATION_PRESETS.CARD_FADE_UP} delay={STAGGER_DELAYS.MEDIUM[1]} key={activeTab} className="flex-1">
                             <div className="flex-1">
                                 <h2 className="text-3xl font-bold text-gray-900 mb-6">{activeContent.title}</h2>
                                 <div className="mb-8">

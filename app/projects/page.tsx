@@ -11,33 +11,63 @@ import Image from "next/image";
 const SPECIAL_PROJECTS = [
     {
         number: 1,
-        title: "Completion of Ultra-Modern Indoor Sports Hall/Gym Complex",
-        description: "Development of a state-of-the-art indoor sports facility to enhance training capabilities and host major sporting events in Imo State.",
-        location: "Owerri",
-        category: "Sports Infrastructure",
-        status: "In Progress",
-        partners: "Ministry of Sports, Construction Partners",
-        budget: "₦200M"
+        title: "Outpatient Clinic at Umuduru Health Complex",
+        description: "Construction and commissioning of a modern outpatient clinic facility to improve healthcare delivery and accessibility for the community.",
+        location: "Umuduru",
+        category: "Health Infrastructure",
+        status: "Completed",
+        partners: "Ministry of Health, Community Partners",
+        budget: "₦50M"
     },
     {
         number: 2,
-        title: "Construction of New Modern Hostel Complex",
-        description: "Building modern accommodation facilities for athletes and sports personnel to support training programs and competitions.",
-        location: "Owerri",
-        category: "Sports Infrastructure",
-        status: "In Progress",
-        partners: "Ministry of Sports, Construction Partners",
-        budget: "₦200M"
+        title: "Three-Block Market Stalls at Eke Amandugba",
+        description: "Development of modern market infrastructure to boost local commerce and provide better trading facilities for vendors and customers.",
+        location: "Eke Amandugba",
+        category: "Commercial Infrastructure",
+        status: "Completed",
+        partners: "Ministry of Commerce, Local Community",
+        budget: "₦75M"
     },
     {
         number: 3,
-        title: "Establishment of Imo State Sports Academy",
-        description: "Creating a comprehensive sports academy for systematic talent identification, training, and development of young athletes.",
-        location: "Owerri",
-        category: "Talent Development",
-        status: "Planning",
-        partners: "Ministry of Sports, Educational Partners",
+        title: "Technical College and Skills Acquisition Centre",
+        description: "Establishment of a comprehensive technical education facility to enhance skills development and vocational training opportunities.",
+        location: "Uburu-Ekwe",
+        category: "Educational Infrastructure",
+        status: "Completed",
+        partners: "Ministry of Education, Skills Development Partners",
         budget: "₦120M"
+    },
+    {
+        number: 4,
+        title: "Civic Centre in Amucha Ebeise",
+        description: "Construction of a modern civic centre to serve as a community hub for meetings, events, and administrative functions.",
+        location: "Amucha Ebeise (Njaba LGA)",
+        category: "Community Infrastructure",
+        status: "Completed",
+        partners: "Local Government, Community Leaders",
+        budget: "₦80M"
+    },
+    {
+        number: 5,
+        title: "Health Centre and Solar-Powered Borehole",
+        description: "Rehabilitation of health centre and installation of solar-powered borehole to improve healthcare services and water access.",
+        location: "Okwelle Motherless Babies Home",
+        category: "Health & Water Infrastructure",
+        status: "Completed",
+        partners: "Ministry of Health, Water Resources",
+        budget: "₦60M"
+    },
+    {
+        number: 6,
+        title: "Community Primary School and Town Hall",
+        description: "Construction of 4-classroom primary school and town hall to enhance educational opportunities and community governance.",
+        location: "Ndiekwuru Imenze, Onuimo LGA",
+        category: "Educational & Community Infrastructure",
+        status: "Completed",
+        partners: "Ministry of Education, Local Government",
+        budget: "₦90M"
     }
 ];
 
@@ -54,11 +84,11 @@ export default function Projects() {
             <section className="py-12 bg-gray-50">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-20">
                     <div className="text-center mb-8">
-                        <h2 className="text-3xl font-bold text-gray-900 mb-4">Our Sports Development Projects</h2>
+                        <h2 className="text-3xl font-bold text-gray-900 mb-4">Our Special Projects & Interventions</h2>
                         <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                            Discover our transformative sports infrastructure and development projects designed to elevate sporting excellence in Imo State. 
-                            Each initiative reflects our commitment to building world-class facilities, nurturing talent, and creating opportunities 
-                            for youth empowerment through sports and recreation.
+                            Discover our transformative special projects and strategic interventions designed to address critical needs across Imo State. 
+                            Each initiative reflects our commitment to building essential infrastructure, improving community services, and creating opportunities 
+                            for sustainable development through cross-sectoral collaboration.
                         </p>
                     </div>
                 </div>
@@ -70,15 +100,15 @@ export default function Projects() {
                     <div className="mb-8">
                         <h3 className="text-xl font-semibold text-gray-800 mb-4">Project Updates</h3>
                         <p className="text-gray-600 mb-6">
-                            Stay informed about our ongoing and upcoming sports infrastructure and development initiatives 
-                            across Imo State. Each project is designed to enhance sporting excellence, youth empowerment, and community engagement through sports.
+                            Stay informed about our completed and ongoing special projects and strategic interventions 
+                            across Imo State. Each project is designed to address critical community needs, improve essential services, and enhance quality of life through targeted interventions.
                         </p>
                         <ul className="list-disc list-inside text-gray-600 space-y-2 mb-8">
-                            <li>Sports infrastructure development and facility upgrades</li>
-                            <li>Talent identification and development programs</li>
-                            <li>Youth empowerment and capacity building initiatives</li>
-                            <li>Stadium construction and renovation projects</li>
-                            <li>Sports academy establishment and training programs</li>
+                            <li>Health infrastructure development and facility upgrades</li>
+                            <li>Educational infrastructure and skills development programs</li>
+                            <li>Community facilities and civic infrastructure projects</li>
+                            <li>Commercial infrastructure and market development</li>
+                            <li>Water and sanitation infrastructure improvements</li>
                         </ul>
                     </div>
 
@@ -147,66 +177,6 @@ export default function Projects() {
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                            </AnimatedEntrance>
-                        ))}
-                    </div>
-                    
-                    <div className="mt-12 text-center">
-                        <p className="text-gray-600 mb-4">
-                            For the latest updates, follow us on our social media platforms or check back regularly.
-                        </p>
-                        <div className="flex justify-center space-x-4">
-                            <a href="#" className="text-gray-500 hover:text-green-600 transition-colors">
-                                <span className="sr-only">Facebook</span>
-                                <FaFacebookF className="h-6 w-6" />
-                            </a>
-                            <a href="#" className="text-gray-500 hover:text-green-600 transition-colors">
-                                <span className="sr-only">X (Twitter)</span>
-                                <FaXTwitter className="h-6 w-6" />
-                            </a>
-                            <a href="#" className="text-gray-500 hover:text-green-600 transition-colors">
-                                <span className="sr-only">Instagram</span>
-                                <FaInstagram className="h-6 w-6" />
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            {/* Strategic Goals Section */}
-            <section className="py-16 bg-gray-50">
-                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-20">
-                    <div className="text-center mb-10">
-                        <h2 className="text-3xl font-bold text-gray-900 mb-4">Our Strategic Goals</h2>
-                        <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                            The Ministry of Sports and Youth Development is committed to transforming sports development and youth empowerment in Imo State through world-class infrastructure, talent nurturing, and comprehensive sports programs.
-                        </p>
-                    </div>
-                    
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                        {[
-                            "Complete construction of ultra-modern indoor sports hall/gym complex worth ₦200M in Owerri.",
-                            "Establish Imo State Sports Academy for systematic talent identification and development.",
-                            "Construct Olympic-standard swimming pool and upgrade Dan Anyiam Stadium facilities.",
-                            "Build 30,000-capacity modern stadium in Owerri and 10,000-capacity zonal stadium in Orlu.",
-                            "Identify and develop over 1,000 young talents across 17 sports disciplines annually.",
-                            "Renovate and equip existing sports facilities including Grasshoppers International Handball Stadium.",
-                            "Implement comprehensive youth empowerment programs reaching 5,000 beneficiaries yearly.",
-                            "Establish partnerships with international sports organizations for coaching upgrades.",
-                            "Create modern hostel complex worth ₦200M for athletes and sports personnel.",
-                            "Develop grassroots sports programs in all 27 Local Government Areas of Imo State."
-                        ].map((goal, index) => (
-                            <AnimatedEntrance 
-                                key={index} 
-                                {...ANIMATION_PRESETS.CARD_FADE_UP} 
-                                delay={0.1 * index}
-                            >
-                                <div className="flex items-start p-4 bg-white rounded-lg shadow-sm">
-                                    <div className="flex-shrink-0 w-8 h-8 rounded-full bg-green-100 flex items-center justify-center mr-4">
-                                        <span className="text-green-600 font-semibold">{index + 1}</span>
-                                    </div>
-                                    <p className="text-gray-700">{goal}</p>
                                 </div>
                             </AnimatedEntrance>
                         ))}

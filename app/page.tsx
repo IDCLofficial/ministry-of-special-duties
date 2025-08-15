@@ -28,24 +28,24 @@ export default function Home() {
       <section className="py-8 sm:py-12 md:py-16 bg-white">
         <div className="px-4 sm:px-6 lg:px-20">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8 md:gap-12 items-center">
-            <AnimatedEntrance {...ANIMATION_PRESETS.IMAGE_FADE_UP} className="order-2 lg:order-1">
-                <Image
-                  src="/assets/no-image.png"
-                  alt="Imo State Ministry of Sports and Youth Development – Overview"
-                  width={600}
-                  height={400}
-                  className="rounded-lg shadow-lg w-full h-auto hover:shadow-xl transition-shadow duration-300"
-                />
+            <AnimatedEntrance {...ANIMATION_PRESETS.IMAGE_FADE_UP} className="order-2 lg:order-1 max-h-[400px] overflow-hidden rounded-lg">
+              <Image
+                src="/photos/Photo - Ministry of Special Duties.jpg"
+                alt="Imo State Ministry of Special Duties – Overview"
+                width={600}
+                height={400}
+                className="rounded-lg shadow-lg w-full h-auto hover:shadow-xl transition-shadow duration-300 object-cover object-[30%_30%] -mt-20"
+              />
             </AnimatedEntrance>
             <div className="grid gap-4 sm:gap-6 md:gap-8 order-1 lg:order-2">
               <AnimatedEntrance {...ANIMATION_PRESETS.TITLE_FADE_DOWN} delay={200}>
                 <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 leading-tight">
-                  Welcome to the Ministry of Sports and Youth Development
+                  Welcome to the official website of the Ministry of Special Duties, Imo State.
                 </h2>
               </AnimatedEntrance>
               <AnimatedEntrance {...ANIMATION_PRESETS.TEXT_FADE_RIGHT} delay={400}>
                 <p className="text-sm sm:text-base text-gray-600 leading-relaxed">
-                  Welcome to the Ministry of Youth and Sports Development, Imo State the heartbeat of youth empowerment and sporting excellence in our dear state. Guided by the vision of building a vibrant, talented, and globally competitive generation, we are committed to creating opportunities that inspire our young people to reach their full potential. Through strategic programs, modern sports infrastructure, and collaborative partnerships, we strive to nurture talent, promote healthy lifestyles, and unite communities through the power of sports.
+                  We are committed to coordinating special assignments and handling strategic government interventions that cut across various sectors in the state. Whether responding to emergencies, overseeing special projects, or facilitating high-impact initiatives, our role is central to the smooth operation of government and the achievement of state-wide development goals. Our ministry acts as a bridge between the Governor's special directives and the implementing agencies, ensuring that every assignment is executed with precision, urgency, and public impact.
                 </p>
               </AnimatedEntrance>
               <AnimatedEntrance {...ANIMATION_PRESETS.BUTTON_SCALE_UP} delay={600}>
@@ -69,18 +69,18 @@ export default function Home() {
                 <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-4 sm:mb-6 leading-tight">
                   A Message from the Honorable Commissioner
                 </h2>
-                <h3 className="text-xl font-semibold text-gray-800 mb-2">Hon. Obinna Evaristus Onyeocha</h3>
-                <p className="text-gray-600 text-sm mb-4">Honourable Commissioner for Sports and Youth Development</p>
+                <h3 className="text-xl font-semibold text-gray-800 mb-2">Dr. (Sir) Chika Abazu</h3>
+                <p className="text-gray-600 text-sm mb-4">Commissioner, Ministry of Special Duties</p>
               </AnimatedEntrance>
               <AnimatedEntrance {...ANIMATION_PRESETS.TEXT_FADE_LEFT} delay={200}>
                 <p className="text-sm sm:text-base text-gray-600 mb-4 sm:mb-6 leading-relaxed">
-                  Welcome to the Ministry of Youth and Sports Development, Imo State the heartbeat of youth empowerment and sporting excellence in our dear state. Guided by the vision of building a vibrant, talented, and globally competitive generation, we are committed to creating opportunities that inspire our young people to reach their full potential.
+                  Welcome to the Ministry of Special Duties, Imo State. As a highly accomplished Public Health Physician with over 22 years of distinguished service in the Federal Civil Service, I am committed to coordinating special assignments and handling strategic government interventions that cut across various sectors in our state.
                 </p>
                 <p className="text-sm sm:text-base text-gray-600 mb-4 sm:mb-6 leading-relaxed">
-                  Through strategic programs, modern sports infrastructure, and collaborative partnerships, we strive to nurture talent, promote healthy lifestyles, and unite communities through the power of sports. Our ministry is geared towards ensuring the development of sports and fostering sporting activities across the state.
+                  Whether responding to emergencies, overseeing special projects, or facilitating high-impact initiatives, our role is central to the smooth operation of government and the achievement of state-wide development goals. Our ministry acts as a bridge between the Governor's special directives and the implementing agencies.
                 </p>
                 <p className="text-sm sm:text-base text-gray-600 mb-6 sm:mb-8 leading-relaxed">
-                  Together, we are shaping champions on and off the field, building a dynamic, inclusive, and high-performing generation of youth, celebrated for sporting prowess, leadership, and community vitality. Join us in this transformative journey towards sporting excellence.
+                  As a God-fearing, honest, hardworking, and focused leader who does not make empty promises, I am dedicated to ensuring that every assignment is executed with precision, urgency, and public impact. Together, we are strengthening governance, promoting resilience, and enhancing the wellbeing of all citizens across Imo State.
                 </p>
               </AnimatedEntrance>
               {/* <AnimatedEntrance {...ANIMATION_PRESETS.BUTTON_SCALE_UP} delay={600}>
@@ -92,8 +92,8 @@ export default function Home() {
             <div className="flex-1 order-1 lg:order-2">
               <AnimatedEntrance {...ANIMATION_PRESETS.IMAGE_FADE_UP}>
                   <Image
-                    src="/assets/no-image.png"
-                    alt="Hon. Obinna Evaristus Onyeocha – Honourable Commissioner for Sports and Youth Development"
+                    src="/photos/Dr. Sir Chika Abazu – Commissioner for Special Duties.jpg"
+                    alt="Dr. (Sir) Chika Abazu – Commissioner for Special Duties"
                     width={500}
                     height={600}
                     className="rounded-lg shadow-lg w-full h-auto"
@@ -200,15 +200,13 @@ export default function Home() {
               Our Key Partners
             </h2>
             <p className="text-gray-600 max-w-3xl mx-auto text-sm sm:text-base">
-              Collaborating with sports organizations, football clubs, media partners, and development agencies to deliver comprehensive sports development and youth empowerment programs across Imo State
+              Collaborating with government agencies, emergency response organizations, development partners, and inter-ministerial bodies to deliver strategic interventions, emergency coordination, and special government mandates across Imo State
             </p>
           </AnimatedEntrance>
           <div className="grid justify-center grid-cols-[repeat(auto-fill,minmax(150px,1fr))] gap-6 sm:gap-8 items-center">
-            {[{ name: 'Nigeria Football Federation', logo: '/assets/no-image.png' },
-              { name: 'Imo State Football Association', logo: '/assets/no-image.png' },
-              { name: 'National Youth Service Corps', logo: '/assets/no-image.png' },
-              { name: 'Sports Writers Association', logo: '/assets/no-image.png' },
-              { name: 'Heartland FC', logo: '/assets/no-image.png' },
+            {[{ name: 'State Emergency Management Agency (SEMA)', logo: '/photos/Photo - SEMA.jpg' },
+              { name: 'National Emergency Management Agency (NEMA)', logo: '/photos/Photo - NEMA.png' },
+              { name: 'Inter-Ministerial Coordination Committee', logo: '/assets/ng-logo.png' },
             ].map((partner, index) => (
               <AnimatedEntrance
                 key={partner.name}
@@ -217,14 +215,14 @@ export default function Home() {
                 className="flex items-center justify-center"
               >
                 <div className="text-center hover:transform hover:scale-110 transition-all duration-300 cursor-pointer">
-                  <div className="bg-white p-2 rounded-lg shadow-sm">
+                  <div className="bg-white p-2 rounded-lg shadow-sm aspect-[1/1] h-28">
                     <CustomImage
                       src={partner.logo}
                       alt={`Partner ${partner.name}`}
                       width={100}
                       title={`Partner ${partner.name}`}
                       height={60}
-                      className="w-full h-auto object-contain"
+                      className="w-full h-full object-contain"
                     />
                   </div>
                 </div>

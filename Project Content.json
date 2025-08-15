@@ -1,300 +1,112 @@
 {
-  "ministry_name": "Ministry of Sports and Youth Development",
-  "state": "Imo State",
-  "website_structure": {
-    "home_page": {
+  "ministry_name": "MINISTRY OF SPECIAL DUTIES",
+  "state": "IMO STATE",
+  "website_recommendations": {
+    "home": {
       "hero_section": {
-        "title": "Ministry of Sports and Youth Development",
-        "welcome_statement": "Welcome to the Ministry of Youth and Sports Development, Imo State the heartbeat of youth empowerment and sporting excellence in our dear state. Guided by the vision of building a vibrant, talented, and globally competitive generation, we are committed to creating opportunities that inspire our young people to reach their full potential. Through strategic programs, modern sports infrastructure, and collaborative partnerships, we strive to nurture talent, promote healthy lifestyles, and unite communities through the power of sports. Together, we are shaping champions on and off the field.",
-        "mission_statement": "Ministry of sports is geared towards ensuring the development of sports and foster sporting activities in the state.",
-        "vision": "To build a dynamic, inclusive, and high-performing generation of youth, celebrated for sporting prowess, leadership, and community vitality."
+        "logo_placement": "Ministry's logo as the first element to be bold",
+        "main_headline": "Delivering Strategic Interventions, Coordinating Special Mandates",
+        "subheadline": "Championing emergency response, inter-agency collaboration, and strategic government initiatives to meet the special needs of Imo State."
       },
-      "navigation_links": [
-        "Who we are",
-        "Newsroom", 
-        "Learn more about us"
-      ],
-      "sections": [
-        {
-          "name": "News & Updates / Slideshow",
-          "description": "Includes the latest news such as international gymnastics courses, MTN Champs, capacity-building workshops, and more."
-        },
-        {
-          "name": "About / Who We Are",
-          "description": "A brief about information of the ministry"
-        },
-        {
-          "name": "Departments Overview",
-          "description": "Outline the departments and brief function of the department"
-        },
-        {
-          "name": "Leadership / Biographies",
-          "description": "Attach the image of the commissioner and welcome statement",
-          "commissioner_welcome": "Welcome to the Ministry of Youth and Sports Development, Imo State the heartbeat of youth empowerment and sporting excellence in our dear state. Guided by the vision of building a vibrant, talented, and globally competitive generation, we are committed to creating opportunities that inspire our young people to reach their full potential. Through strategic programs, modern sports infrastructure, and collaborative partnerships, we strive to nurture talent, promote healthy lifestyles, and unite communities through the power of sports. Together, we are shaping champions on and off the field."
-        },
-        {
-          "name": "Newsroom / Recent Releases",
-          "description": "List the current News from the ministry with a read more button linked to the News Page"
-        },
-        {
-          "name": "Events Spotlight",
-          "description": "List the latest event from the ministry, include a read more button"
-        }
-      ],
-      "footer": {
-        "quick_links": "Quick link to the main menus",
-        "contact_info": {
-          "address": "Block 1, Imo State Secretariat, Port Harcourt Road, Owerri, Imo State",
-          "phone": "----------------------",
-          "email": "----------------------------"
-        },
-        "copyright": "All Right Reserve Imo 2025"
+      "welcome_message": {
+        "title": "Welcome to the official website of the Ministry of Special Duties, Imo State.",
+        "content": "We are committed to coordinating special assignments and handling strategic government interventions that cut across various sectors in the state. Whether responding to emergencies, overseeing special projects, or facilitating high-impact initiatives, our role is central to the smooth operation of government and the achievement of state-wide development goals. Our ministry acts as a bridge between the Governor's special directives and the implementing agencies, ensuring that every assignment is executed with precision, urgency, and public impact."
       }
     },
-    "about_us_page": {
-      "hero_section": {
-        "title_banner": "NSC core values: Fair Play, Social Justice, Equality, Self‑Reliance, and Discipline"
-      },
-      "sections": [
-        {
-          "name": "Introductory Statement",
-          "content": "-------------------------------------"
-        },
-        {
-          "name": "Mission / Vision / Mandate",
-          "mission_statement": "--------------------",
-          "vision_statement": "---------------------",
-          "mandate": "Talent identification & grassroots development: Engaging local government areas (LGAs) across the state to identify young sporting talents for the National Sports Festival and other competitions\n\nSupporting women and youth football: Oversight for Heartland Queens FC and support for their welfare, transport, and performance development strategies\n\nPromotion of mini-football: Meeting held with Imo Mini Football Association to integrate mini­-football into state sports programs\n\nCollaboration with SWAN: Working closely with the Sports Writers Association of Nigeria to boost media coverage, youth talent projection, and broader participation"
-        },
-        {
-          "name": "Responsibilities",
-          "content": "Policy, infrastructure, talent, mass participation, stakeholder collaboration"
-        },
-        {
-          "name": "Specific Functions",
-          "content": "Formulation, training, partnerships, events coordination"
-        },
-        {
-          "name": "Developmental Programmes",
-          "content": ""
-        },
-        {
-          "name": "Leadership Snapshot",
-          "key_figures": {
-            "permanent_secretary": "Lady Ngozi Duru Victoria",
-            "commissioner": "",
-            "departmental_directors": ""
-          }
-        },
-        {
-          "name": "Historical Overview",
-          "content": "-------------------------------------"
+    "about_us": {
+      "overview": "The Ministry of Special Duties is a dynamic arm of the Imo State Government, created to handle assignments that fall outside the direct scope of conventional ministries. It oversees strategic interventions, inter-governmental collaborations, disaster response, and implementation of high-level projects as directed by the Executive Governor.",
+      "sections": {
+        "who_we_are": "The Ministry of Special Duties, Imo State plays a strategic role in executing priority mandates of the state government. We handle high-impact assignments, emergency responses, inter-agency coordination, and special interventions that demand urgent and cross-functional delivery.",
+        "vision": "To be a dynamic and responsive arm of government, delivering timely special assignments and interventions that strengthen governance, promote resilience, and enhance the wellbeing of all citizens across Imo State.",
+        "mission": "To coordinate and implement the Governor's special mandates through strategic planning, emergency response, inter-agency collaboration, and efficient execution of high-impact projects ensuring fast, transparent, and citizen-focused service delivery throughout Imo State.",
+        "core_values": {
+          "integrity": "We maintain accountability and transparency in all our operations.",
+          "responsiveness": "We act swiftly to emergencies and special assignments.",
+          "collaboration": "We work closely with ministries, agencies, and communities to drive results.",
+          "service": "We put the welfare of the people at the center of every mandate.",
+          "excellence": "We uphold professionalism and high standards in project delivery."
         }
-      ]
+      }
     },
-    "commissioner": {
-      "name": "Hon. Obinna Evaristus Onyeocha"
-    },
-    "departments_and_agencies": {
+    "departments_agencies": {
       "departments": [
         {
-          "name": "Department of Sports Development",
-          "function": "Designs and implements sports policies, manages state teams and competitions (e.g., National Sports Festival), and promotes grassroots sports development."
+          "name": "Emergency Management and Disaster Response Department",
+          "description": "Responsible for coordinating state-level responses to emergencies, natural disasters, and crises (often works closely with SEMA/NEMA)."
         },
         {
-          "name": "Department of Youth Development", 
-          "function": "Engages youth in empowerment programs, entrepreneurship, and leadership training. Coordinates NYSC affairs."
+          "name": "Special Projects & Interventions Department",
+          "description": "Oversees the execution and supervision of high-impact, governor-mandated projects that fall outside routine ministerial duties."
         },
         {
-          "name": "Department of Talent Hunt and Empowerment",
-          "function": "Identifies young talents in sports and supports them with training, exposure, and mentorship."
+          "name": "Inter-Ministerial Coordination Department",
+          "description": "Ensures synergy between various ministries and agencies during the implementation of cross-sectoral initiatives."
         },
         {
-          "name": "Department of Planning, Research & Statistics",
-          "function": "Monitors and evaluates the ministry's programs, conducts research for policy development, and manages data/statistics."
+          "name": "Protocol and Events Management Department",
+          "description": "Handles state ceremonies, official events, and the Governor's special engagements requiring logistical coordination."
         },
         {
-          "name": "Department of Administration & General Services",
-          "function": "Handles the internal administration of the ministry, including logistics, records, staff matters, and supplies."
+          "name": "Strategic Planning & Monitoring Department",
+          "description": "Focuses on policy formulation, project evaluation, and performance tracking of special interventions."
         },
         {
-          "name": "Department of Finance & Accounts",
-          "function": "Manages budgeting, fund disbursement, and financial reporting within the ministry."
-        },
-        {
-          "name": "Department of Sports Infrastructure & Facility Management",
-          "function": "Oversees the construction, renovation, and maintenance of stadiums and sports complexes."
-        },
-        {
-          "name": "Department of Public Relations / Media & Outreach",
-          "function": "Manages the ministry's public communication, coordinates with SWAN, and promotes events."
-        }
-      ]
-    },
-    "services": {
-      "programs": [
-        {
-          "name": "Capacity-Building & Training Programs",
-          "description": "Hosted a \"Teaching the Teachers for Students Development\" seminar to empower School Games Masters across secondary schools in Imo State. This initiative strengthens grassroots sports delivery."
-        },
-        {
-          "name": "Talent Identification & Football Scouting",
-          "description": "Organized a 3-day football scouting programme at Dan Anyiam Stadium with European club officials to discover promising young players for local and international careers."
-        },
-        {
-          "name": "Sports Academy Planning",
-          "description": "Plans are underway to establish a state sports academy for systematic talent identification and training."
-        },
-        {
-          "name": "Grassroots Development & Partnerships",
-          "description": "Partnered with Ex‑Iwuanyanwu National (Heartland FC alumni) for youth football development and entry pathways."
-        },
-        {
-          "name": "Mini‑Football Promotion & Integration",
-          "description": "Endorsed mini-football and partnered with the Imo State Mini Football Association to promote and integrate the sport in local programs."
-        },
-        {
-          "name": "International Coaching Upgrades & Events",
-          "description": "Rolled out coaching programmes and signed an MoU with Spanish authorities to raise coaching and athlete welfare standards."
-        },
-        {
-          "name": "Media, Stakeholder Engagement & Promotion",
-          "description": "Collaborated with SWAN and sports media to promote ministry activities and youth empowerment projects."
+          "name": "Administration and Finance Department",
+          "description": "Manages internal human resources, budgeting, and procurement for the ministry."
         }
       ]
     },
     "projects": {
-      "infrastructure_projects": [
-        {
-          "name": "Completion of ultra‑modern indoor sports hall/gym complex, Owerri",
-          "budget": "₦200M"
-        },
-        {
-          "name": "Construction of a new modern hostel complex, Owerri",
-          "budget": "₦200M"
-        },
-        {
-          "name": "Renovation and equipping of existing indoor sports hall",
-          "budget": "₦250M"
-        },
-        {
-          "name": "Establishment of Imo State Sports Academy, Owerri",
-          "budget": "₦120M"
-        },
-        {
-          "name": "Re‑roofing of Grasshoppers International Handball Stadium",
-          "budget": "₦120M"
-        },
-        {
-          "name": "Upgrades at Dan Anyiam Stadium, Owerri",
-          "budget": "₦100M"
-        },
-        {
-          "name": "Asphalting internal roads at Dan Anyiam Stadium (4 km)",
-          "budget": "₦100M"
-        },
-        {
-          "name": "Construction of Olympic-standard swimming pool, Owerri",
-          "budget": "₦100M"
-        },
-        {
-          "name": "Construction of 30,000-capacity Owerri stadium",
-          "budget": "₦80M"
-        },
-        {
-          "name": "Construction of 10,000-capacity zonal stadium in Orlu",
-          "budget": "₦70M"
-        }
-      ],
-      "strategic_projects": [
-        {
-          "name": "Niger Delta Games Liaison Committee",
-          "description": "Formed to coordinate Imo's participation in the Niger Delta Sports Festival."
-        },
-        {
-          "name": "U‑25 Athlete Mobilisation & Trials",
-          "description": "Registered 600+ athletes across 17 disciplines, organized camps, and coordinated festival participation."
-        },
-        {
-          "name": "Grassroots Talent Hunt & Development",
-          "description": "Programs aimed at discovering talents through stakeholder and diaspora involvement."
-        },
-        {
-          "name": "Mini‑Football Integration",
-          "description": "Partnership with the Mini-Football Association to integrate the sport into local youth programs."
-        },
-        {
-          "name": "Olympic Day Walk & Campaigns",
-          "description": "Community outreach to promote athletics and the Olympic spirit."
-        },
-        {
-          "name": "Team Logistics Enhancement",
-          "description": "New coaster buses donated to Heartland FC and Heartland Queens FC."
-        }
+      "completed_projects": [
+        "An outpatient clinic at Umuduru Health Complex",
+        "Three-block market stalls at Eke Amandugba",
+        "Technical College and Skills Acquisition Centre in Uburu-Ekwe",
+        "Civic centre in Amucha Ebeise (Njaba LGA)",
+        "A rehabilitated health centre and solar-powered borehole at Okwelle Motherless Babies Home",
+        "Aro-Amuro community primary school (4 classrooms) and a town hall in Ndiekwuru Imenze, Onuimo LGA",
+        "A community borehole in Obinorie (Okigwe LGA)",
+        "Health centre in Umunakara, Imerienwe (Ngor-Okpala LGA)",
+        "Rehabilitated classrooms in Obinze (Owerri-West LGA)"
       ]
     },
-    "news": {
-      "recent_news": [
-        {
-          "title": "Liaison Committee Formed for Niger Delta Sports Festival",
-          "date": "February 7, 2025",
-          "summary": "Commissioner Onyeocha inaugurated the Imo State Liaison Committee at the State Secretariat in Owerri. The committee, chaired by Permanent Secretary Lady Ngozi Duru Victoria, includes sports directors and private sector reps."
-        },
-        {
-          "title": "U‑25 Athlete Mobilisation",
-          "summary": "Imo State registered over 600 Under‑25 athletes in 17 disciplines for the Niger Delta Sports Festival. Trials and camps were held at Dan Anyiam Stadium."
-        },
-        {
-          "title": "Grassroots Talent Hunt Drive",
-          "summary": "The Ministry intensified grassroots scouting in collaboration with stakeholders and the diaspora."
-        },
-        {
-          "title": "Support for Mini‑Football Expansion",
-          "summary": "The Ministry partnered with the Mini Football Association to integrate mini-football into the state's youth programs."
-        },
-        {
-          "title": "Preparation for National Sports Festival",
-          "summary": "Plans are underway for Imo to compete in the 2025 NSF in Abeokuta with 400 athletes across 16 events."
-        },
-        {
-          "title": "Stakeholder Meeting: Focus on Grassroots & Welfare",
-          "summary": "Amb. Eleazer Ogbonna donated ₦800,000 toward stadium repairs and facility rehabilitation."
-        }
+    "commissioner": {
+      "name": "Dr. (Sir) Chika Abazu",
+      "title": "Commissioner, Ministry of Special Duties",
+      "background": "A highly accomplished Public Health Physician with over 22 years of distinguished service in the Federal Civil Service, rising to the rank of Director. Throughout his career, he has demonstrated integrity, dedication, and a passion for excellence in service delivery for the benefit of humanity.",
+      "education": "He holds degrees from Abia State University, Nigeria Defence Academy Kaduna, West Virginia University, USA, and Emory University, USA.",
+      "personal": "He is happily married and blessed with children.",
+      "leadership_qualities": "A God-fearing, honest, hardworking, and focused leader who does not make empty promises.",
+      "priority_areas": [
+        "Legislative representation",
+        "Accountability", 
+        "Education",
+        "Youth and women empowerment",
+        "Infrastructure",
+        "Power",
+        "Water",
+        "Health",
+        "Sports",
+        "Social welfare",
+        "Security"
+      ],
+      "planned_initiatives": [
+        "Sponsor impactful bills",
+        "Ensure transparent use of constituency funds",
+        "Build modern schools",
+        "Establish training hubs",
+        "Restore electricity",
+        "Launch the Greater Ideato Water Scheme",
+        "Construct health centres",
+        "Develop sports facilities",
+        "Provide elderly care through 'Kitbuz'-styled settlements",
+        "Strengthen local security",
+        "Attract funding from donor agencies"
       ]
     },
-    "events": {
-      "recent_events": [
-        {
-          "name": "Imo Youth Marathon – \"Running for Peace\"",
-          "date": "May 2025",
-          "location": "Owerri",
-          "details": "Over 2,000 youths participating. Winners received ₦500,000 each. Flagged off by Governor Hope Uzodimma."
-        },
-        {
-          "name": "U‑25 Athletes in Niger Delta Sports Festival",
-          "date": "April 2025",
-          "location": "Uyo",
-          "details": "Over 600 athletes participated in 17 disciplines. Imo placed 8th overall, winning 42 medals."
-        },
-        {
-          "name": "Participation in the 2025 National Sports Festival",
-          "date": "May 2025",
-          "location": "Ogun State",
-          "details": "Imo competed. Opened with a basketball win over the host. Unity torch received in Owerri by Governor Uzodimma."
-        },
-        {
-          "name": "Mini-Football Integration Meeting",
-          "date": "February 2025",
-          "details": "Ministry pledged to support mini-football with strategic integration into youth programs."
-        }
-      ],
-      "upcoming_events": [
-        {
-          "name": "Next Edition of Imo Youth Marathon",
-          "expected_date": "May or June 2026",
-          "status": "Expected following the successful 2025 event. Official confirmation pending; registration will open online."
-        }
-      ]
+    "additional_pages": {
+      "contact_us": "Standard contact page with ministry contact information",
+      "news": "News and updates section",
+      "events": "Events and announcements section"
     }
   }
 }

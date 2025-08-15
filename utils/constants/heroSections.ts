@@ -1,6 +1,5 @@
 export interface HeroConfig {
   title: string;
-  subtitle?: string;
   description?: string;
   backgroundImage?: string;
   backgroundGradient?: string;
@@ -12,23 +11,30 @@ export interface HeroConfig {
  
 export const HERO_CONFIGS = {
   HOME: {
-    title: "Ministry of Sports and Youth Development",
-    subtitle: "Empowering Youth. Building Champions. Fostering Excellence.",
-    description: "Welcome to the Ministry of Youth and Sports Development, Imo State - the heartbeat of youth empowerment and sporting excellence in our dear state. Guided by the vision of building a vibrant, talented, and globally competitive generation, we are committed to creating opportunities that inspire our young people to reach their full potential.",
+    title: "Ministry of Special Duties",
+    subtitle: "Delivering Strategic Interventions, Coordinating Special Mandates",
+    description: "Championing emergency response, inter-agency collaboration, and strategic government initiatives to meet the special needs of Imo State.",
     height: 'extra-large' as const,
+    alignment: 'left' as const
+  },
+
+  DEPARTMENT: {
+    title: "Ministry of Special Duties",
+    description: "Departments & Agencies",
+    height: 'medium' as const,
     alignment: 'left' as const
   },
   
   PROJECTS: {
-    title: "Our Sports Infrastructure Projects",
-    description: "Explore our ongoing and completed sports infrastructure projects, including stadium construction, sports complexes, and facility upgrades that are transforming sports development across Imo State.",
+    title: "Our Special Projects & Interventions",
+    description: "Explore our completed and ongoing special projects including health facilities, educational infrastructure, community facilities, and strategic interventions that are transforming communities across Imo State.",
     height: 'medium' as const,
     alignment: 'left' as const
   },
   
   TEAM: {
     title: "Our Leadership Team",
-    description: "Meet Hon. Obinna Evaristus Onyeocha, Honourable Commissioner for Sports and Youth Development, and the dedicated team committed to transforming sports development and youth empowerment in Imo State.",
+    description: "Meet Dr. (Sir) Chika Abazu, Commissioner for Special Duties, and the dedicated team committed to coordinating strategic interventions, emergency response, and special government mandates across Imo State.",
     height: 'medium' as const,
     alignment: 'left' as const,
     className: "py-16 md:py-24"
@@ -36,10 +42,9 @@ export const HERO_CONFIGS = {
   
   SERVICES: {
     title: "Our Programs & Services",
-    description: "The Ministry of Sports and Youth Development offers comprehensive programs including talent identification, capacity-building training, sports infrastructure development, youth empowerment, and grassroots sports development to foster sporting excellence in Imo State.",
+    description: "The Ministry of Special Duties offers comprehensive services including emergency response coordination, special projects implementation, inter-ministerial coordination, protocol and events management, and strategic planning to ensure effective government operations across Imo State.",
     height: 'medium' as const,
     alignment: 'left' as const,
-    overlay: false
   },
   
   NEWS: {
@@ -64,8 +69,8 @@ export const HERO_CONFIGS = {
   },
   
   ABOUT: {
-    title: "About the Ministry of Sports and Youth Development",
-    description: "The statutory organ of government responsible for sports development, youth empowerment, talent identification, and sports infrastructure development across Imo State, ensuring comprehensive sports programs and youth leadership training.",
+    title: "About the Ministry of Special Duties",
+    description: "A dynamic arm of the Imo State Government, created to handle assignments that fall outside the direct scope of conventional ministries. We oversee strategic interventions, inter-governmental collaborations, disaster response, and implementation of high-level projects as directed by the Executive Governor.",
     height: 'medium' as const,
     alignment: 'left' as const
   }

@@ -19,93 +19,93 @@ export default function Services() {
                             Our Services
                         </h2>
                         <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                            The Ministry of Sports and Youth Development provides comprehensive sports development, youth empowerment, and talent nurturing programs to build a dynamic generation of champions in Imo State.
+                            The Ministry of Special Duties provides strategic government interventions, emergency response coordination, inter-agency collaboration, and special project implementation to meet the unique needs of Imo State.
                         </p>
                     </AnimatedEntrance>
 
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
-                        {/* Service 1 - Capacity-Building & Training Programs */}
+                        {/* Service 1 - Emergency Response Coordination */}
                         <AnimatedEntrance {...ANIMATION_PRESETS.CARD_FADE_UP} delay={STAGGER_DELAYS.MEDIUM[0]}>
-                            <div className="bg-white border border-gray-200 rounded-lg p-6 sm:p-8 hover:shadow-lg hover:transform hover:scale-105 transition-all duration-300">
-                                <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mb-6">
-                                    <FaUsers className="w-8 h-8 text-green-600" />
-                                </div>
-                                <h3 className="text-xl font-bold text-gray-900 mb-4">
-                                    Capacity-Building & Training Programs
-                                </h3>
-                                <p className="text-gray-600 mb-6 leading-relaxed">
-                                    Hosted a "Teaching the Teachers for Students Development" seminar to empower School Games Masters across secondary schools in Imo State. This initiative strengthens grassroots sports delivery.
-                                </p>
-                                <ul className="text-sm text-gray-600 space-y-2 mb-6">
-                                    <li className="flex items-center">
-                                        <div className="w-1.5 h-1.5 bg-green-500 rounded-full mr-3"></div>
-                                        School Games Masters empowerment seminars
-                                    </li>
-                                    <li className="flex items-center">
-                                        <div className="w-1.5 h-1.5 bg-green-500 rounded-full mr-3"></div>
-                                        Grassroots sports delivery training
-                                    </li>
-                                    <li className="flex items-center">
-                                        <div className="w-1.5 h-1.5 bg-green-500 rounded-full mr-3"></div>
-                                        Secondary school sports development
-                                    </li>
-                                </ul>
-                            </div>
-                        </AnimatedEntrance>
-
-                        {/* Service 2 - Talent Identification & Football Scouting */}
-                        <AnimatedEntrance {...ANIMATION_PRESETS.CARD_FADE_UP} delay={STAGGER_DELAYS.MEDIUM[2]}>
                             <div className="bg-white border border-gray-200 rounded-lg p-6 sm:p-8 hover:shadow-lg hover:transform hover:scale-105 transition-all duration-300">
                                 <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mb-6">
                                     <FaShieldHalved className="w-8 h-8 text-green-600" />
                                 </div>
                                 <h3 className="text-xl font-bold text-gray-900 mb-4">
-                                    Talent Identification & Football Scouting
+                                    Emergency Response Coordination
                                 </h3>
                                 <p className="text-gray-600 mb-6 leading-relaxed">
-                                    Organized a 3-day football scouting programme at Dan Anyiam Stadium with European club officials to discover promising young players for local and international careers.
+                                    Coordinating state-level responses to emergencies, natural disasters, and crises. We work closely with SEMA/NEMA and other emergency agencies to ensure rapid and effective response to critical situations across Imo State.
                                 </p>
                                 <ul className="text-sm text-gray-600 space-y-2 mb-6">
                                     <li className="flex items-center">
                                         <div className="w-1.5 h-1.5 bg-green-500 rounded-full mr-3"></div>
-                                        Football scouting programmes with European clubs
+                                        State-level emergency response coordination
                                     </li>
                                     <li className="flex items-center">
                                         <div className="w-1.5 h-1.5 bg-green-500 rounded-full mr-3"></div>
-                                        Young talent identification and development
+                                        Natural disaster preparedness and response
                                     </li>
                                     <li className="flex items-center">
                                         <div className="w-1.5 h-1.5 bg-green-500 rounded-full mr-3"></div>
-                                        Local and international career pathways
+                                        Crisis management and coordination
                                     </li>
                                 </ul>
                             </div>
                         </AnimatedEntrance>
 
-                        {/* Service 3 - Sports Academy Planning */}
-                        <AnimatedEntrance {...ANIMATION_PRESETS.CARD_FADE_UP} delay={STAGGER_DELAYS.MEDIUM[4]}>
+                        {/* Service 2 - Special Projects Implementation */}
+                        <AnimatedEntrance {...ANIMATION_PRESETS.CARD_FADE_UP} delay={STAGGER_DELAYS.MEDIUM[2]}>
                             <div className="bg-white border border-gray-200 rounded-lg p-6 sm:p-8 hover:shadow-lg hover:transform hover:scale-105 transition-all duration-300">
                                 <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mb-6">
-                                    <FaLeaf className="w-8 h-8 text-green-600" />
+                                    <FaUsers className="w-8 h-8 text-green-600" />
                                 </div>
                                 <h3 className="text-xl font-bold text-gray-900 mb-4">
-                                    Sports Academy Planning
+                                    Special Projects Implementation
                                 </h3>
                                 <p className="text-gray-600 mb-6 leading-relaxed">
-                                    Plans are underway to establish a state sports academy for systematic talent identification and training to develop the next generation of sporting champions.
+                                    Overseeing the execution and supervision of high-impact, governor-mandated projects that fall outside routine ministerial duties. We ensure strategic project planning and successful implementation across various sectors.
                                 </p>
                                 <ul className="text-sm text-gray-600 space-y-2 mb-6">
                                     <li className="flex items-center">
                                         <div className="w-1.5 h-1.5 bg-green-500 rounded-full mr-3"></div>
-                                        State sports academy establishment
+                                        High-impact governor-mandated projects
                                     </li>
                                     <li className="flex items-center">
                                         <div className="w-1.5 h-1.5 bg-green-500 rounded-full mr-3"></div>
-                                        Systematic talent identification programs
+                                        Cross-sectoral project coordination
                                     </li>
                                     <li className="flex items-center">
                                         <div className="w-1.5 h-1.5 bg-green-500 rounded-full mr-3"></div>
-                                        Professional training and development
+                                        Strategic project planning and monitoring
+                                    </li>
+                                </ul>
+                            </div>
+                        </AnimatedEntrance>
+
+                        {/* Service 3 - Inter-Ministerial Coordination */}
+                        <AnimatedEntrance {...ANIMATION_PRESETS.CARD_FADE_UP} delay={STAGGER_DELAYS.MEDIUM[4]}>
+                            <div className="bg-white border border-gray-200 rounded-lg p-6 sm:p-8 hover:shadow-lg hover:transform hover:scale-105 transition-all duration-300">
+                                <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mb-6">
+                                    <FaHandsHelping className="w-8 h-8 text-green-600" />
+                                </div>
+                                <h3 className="text-xl font-bold text-gray-900 mb-4">
+                                    Inter-Ministerial Coordination
+                                </h3>
+                                <p className="text-gray-600 mb-6 leading-relaxed">
+                                    Ensuring synergy and collaboration between ministries and agencies during cross-sectoral initiatives. We facilitate seamless coordination to maximize the effectiveness of government programs and policies.
+                                </p>
+                                <ul className="text-sm text-gray-600 space-y-2 mb-6">
+                                    <li className="flex items-center">
+                                        <div className="w-1.5 h-1.5 bg-green-500 rounded-full mr-3"></div>
+                                        Cross-ministerial collaboration facilitation
+                                    </li>
+                                    <li className="flex items-center">
+                                        <div className="w-1.5 h-1.5 bg-green-500 rounded-full mr-3"></div>
+                                        Inter-agency coordination and synergy
+                                    </li>
+                                    <li className="flex items-center">
+                                        <div className="w-1.5 h-1.5 bg-green-500 rounded-full mr-3"></div>
+                                        Government program effectiveness optimization
                                     </li>
                                 </ul>
                             </div>
