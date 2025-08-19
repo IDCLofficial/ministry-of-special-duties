@@ -50,7 +50,7 @@ export default function Home() {
                 </p>
               </AnimatedEntrance>
               <AnimatedEntrance {...ANIMATION_PRESETS.BUTTON_SCALE_UP} delay={600}>
-                <Link href="/about">
+                <Link href="/services">
                   <button className="bg-[#4CAF50]/90 hover:bg-[#4CAF50] cursor-pointer w-fit text-white px-4 sm:px-6 py-2 sm:py-3 rounded-lg text-sm sm:text-base font-semibold hover:transform hover:scale-105 transition-all duration-300">
                     Learn More About Our Services
                   </button>
