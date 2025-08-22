@@ -13,9 +13,10 @@ export default function Contact() {
         email: "",
         subject: "",
         message: "",
+        captcha: false
     });
     const [errors, setErrors] = useState<
-        Partial<Record<"name" | "company" | "phone" | "email" | "subject" | "message", string>>
+        Partial<Record<"name" | "company" | "phone" | "email" | "subject" | "message" | "captcha", string>>
     >({});
     const [isSubmitting, setIsSubmitting] = useState(false);
 
@@ -37,11 +38,11 @@ export default function Contact() {
     const validate = useCallback((values: typeof formValues) => {
         const nextErrors: Partial<Record<keyof typeof formValues, string>> = {};
         if (!values.name.trim()) nextErrors.name = "Name is required";
-        if (!values.email.trim()) nextErrors.email = "Email is required";
-        else if (!/^\S+@\S+\.\S+$/.test(values.email)) nextErrors.email = "Enter a valid email";
+        if (!values.email.trim() || !/^\S+@\S+\.\S+$/.test(values.email)) nextErrors.email = "Enter a valid email";
         if (values.phone && !/^[\d\s()+-]{7,20}$/.test(values.phone)) nextErrors.phone = "Enter a valid phone";
         if (!values.subject.trim()) nextErrors.subject = "Subject is required";
         if (!values.message.trim() || values.message.trim().length < 10) nextErrors.message = "Message should be at least 10 characters";
+        if (!values.captcha) nextErrors.captcha = "Please verify that you are not a robot";
         return nextErrors;
     }, []);
 
@@ -58,7 +59,7 @@ export default function Contact() {
             try {
                 await new Promise((resolve) => setTimeout(resolve, 1200));
                 toast.success("Message sent successfully!");
-                setFormValues({ name: "", company: "", phone: "", email: "", subject: "", message: "" });
+                setFormValues({ name: "", company: "", phone: "", email: "", subject: "", message: "", captcha: false });
                 setErrors({});
             } finally {
                 setIsSubmitting(false);
@@ -128,13 +129,13 @@ export default function Contact() {
                                         <h3 className="text-xl font-bold text-gray-900 mb-2">Follow Our Updates</h3>
                                         <p className="text-gray-600 text-sm mb-3">Stay connected for emergency alerts & special initiatives</p>
                                         <div className="flex space-x-3 text-white">
-                                            <a href="https://facebook.com/ImoStateGovt" target="_blank" rel="noopener noreferrer" className="w-8 h-8 bg-green-500 rounded flex items-center justify-center hover:bg-green-600 transition-colors">
+                                            <a href="#" target="_blank" rel="noopener noreferrer" className="w-8 h-8 bg-green-500 rounded flex items-center justify-center hover:bg-green-600 transition-colors">
                                                 <FaSquareFacebook />
                                             </a>
-                                            <a href="https://twitter.com/ImoStateGovt" target="_blank" rel="noopener noreferrer" className="w-8 h-8 bg-green-500 rounded flex items-center justify-center hover:bg-green-600 transition-colors">
+                                            <a href="#" target="_blank" rel="noopener noreferrer" className="w-8 h-8 bg-green-500 rounded flex items-center justify-center hover:bg-green-600 transition-colors">
                                                 <FaTwitter />
                                             </a>
-                                            <a href="https://instagram.com/ImoStateGovt" target="_blank" rel="noopener noreferrer" className="w-8 h-8 bg-green-500 rounded flex items-center justify-center hover:bg-green-600 transition-colors">
+                                            <a href="#" target="_blank" rel="noopener noreferrer" className="w-8 h-8 bg-green-500 rounded flex items-center justify-center hover:bg-green-600 transition-colors">
                                                 <FaInstagram />
                                             </a>
                                         </div>
@@ -150,12 +151,8 @@ export default function Contact() {
                                         <h3 className="text-xl font-bold text-gray-900 mb-2">Email</h3>
                                         <div className="space-y-1">
                                             <p className="text-gray-600 text-sm mb-2">General Inquiries:</p>
-                                            <a href="mailto:info@imospecialduties.gov.ng" className="block text-blue-600 hover:text-blue-800 transition-colors duration-300">
-                                                [To be provided]
-                                            </a>
-                                            <p className="text-gray-600 text-sm mb-1 mt-2">Emergency Coordination:</p>
-                                            <a href="mailto:emergency@imospecialduties.gov.ng" className="block text-blue-600 hover:text-blue-800 transition-colors duration-300">
-                                                [To be provided]
+                                            <a href="mailto:info@specialduties.im.gov" className="block text-blue-600 hover:text-blue-800 transition-colors duration-300">
+                                                info@specialduties.im.gov
                                             </a>
                                         </div>
                                     </div>
@@ -268,11 +265,22 @@ export default function Contact() {
                                         ></textarea>
                                         {errors.message && <p id="message-error" className="mt-2 text-sm text-red-600">{errors.message}</p>}
                                     </div>
-                                    <div className="flex items-center">
-                                        <input type="checkbox" required id="not-robot" name="not-robot" className="h-4 w-4 text-green-600 focus:ring-green-500 border-gray-300 rounded" />
-                                        <label htmlFor="not-robot" className="ml-2 block text-sm text-gray-700">
-                                            I&apos;m not a robot
-                                        </label>
+                                    <div>
+                                        <div className="flex items-center">
+                                            <input
+                                                type="checkbox"
+                                                id="captcha"
+                                                name="captcha"
+                                                checked={formValues.captcha}
+                                                onChange={(e) => setFormValues(prev => ({ ...prev, captcha: e.target.checked }))}
+                                                className="h-4 w-4 text-green-600 focus:ring-green-500 border-gray-300 rounded"
+                                                required
+                                            />
+                                            <label htmlFor="captcha" className="ml-2 block text-sm text-gray-700">
+                                                I&apos;m not a robot
+                                            </label>
+                                        </div>
+                                        {errors.captcha && <p className="mt-2 text-sm text-red-600">{errors.captcha}</p>}
                                     </div>
                                     <div className="pt-2">
                                         <button
