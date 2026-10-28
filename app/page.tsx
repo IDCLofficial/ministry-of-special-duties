@@ -11,8 +11,8 @@ import CustomImage from "./components/CustomImage";
 import { pageMetadata } from "@/lib/seo";
 
 export const metadata = pageMetadata({
-  title: { absolute: "Ministry of Special Duties | Imo State Government" },
-  description: "Official website of the Ministry of Special Duties, Imo State Government: services, departments, projects, news and events.",
+  title: { absolute: "Imo State Ministry of Special Duties" },
+  description: "Emergency response coordination, special projects implementation, inter-ministerial coordination and protocol and events management for the Imo State Government.",
   path: "/",
 });
 

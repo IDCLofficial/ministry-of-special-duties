@@ -7,8 +7,8 @@ import { FaHandsHelping } from 'react-icons/fa';
 import { pageMetadata } from "@/lib/seo";
 
 export const metadata = pageMetadata({
-  title: "Services",
-  description: "Services offered by the Ministry of Special Duties of the Imo State Government.",
+  title: "Emergency Response and Special Projects Coordination",
+  description: "Emergency response coordination, special projects implementation, inter-ministerial coordination, protocol and events management and strategic planning in Imo State.",
   path: "/services",
 });
 
